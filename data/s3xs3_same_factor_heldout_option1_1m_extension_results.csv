@@ -1,0 +1,25 @@
+model,seed,eval_len,exact_count,total_count,failure_count,final_accuracy,all_token_accuracy,best_val_final_acc,seed_mean_final_accuracy,clopper_pearson_lower_95
+Hard-projected (ours),20260525,1048576,50,50,0,1.0,FINAL_ONLY,,,
+Hard-projected (ours),20260526,1048576,50,50,0,1.0,FINAL_ONLY,,,
+Hard-projected (ours),20260527,1048576,50,50,0,1.0,FINAL_ONLY,,,
+Hard-projected (ours),20260528,1048576,50,50,0,1.0,FINAL_ONLY,,,
+Hard-projected (ours),20260529,1048576,50,50,0,1.0,FINAL_ONLY,,,
+GRU + projection,20260525,1048576,1,50,49,0.02,FINAL_ONLY,0.0625,,
+GRU + projection,20260526,1048576,1,50,49,0.02,FINAL_ONLY,0.0375,,
+GRU + projection,20260527,1048576,0,50,50,0.0,FINAL_ONLY,0.0625,,
+GRU + projection,20260528,1048576,0,50,50,0.0,FINAL_ONLY,0.0375,,
+GRU + projection,20260529,1048576,0,50,50,0.0,FINAL_ONLY,0.0375,,
+Structured SSM + projection,20260525,1048576,1,50,49,0.02,FINAL_ONLY,0.025,,
+Structured SSM + projection,20260526,1048576,1,50,49,0.02,FINAL_ONLY,0.05,,
+Structured SSM + projection,20260527,1048576,0,50,50,0.0,FINAL_ONLY,0.025,,
+Structured SSM + projection,20260528,1048576,1,50,49,0.02,FINAL_ONLY,0.0375,,
+Structured SSM + projection,20260529,1048576,0,50,50,0.0,FINAL_ONLY,0.0625,,
+Bag + projection,20260525,1048576,1,50,49,0.02,FINAL_ONLY,0.0375,,
+Bag + projection,20260526,1048576,1,50,49,0.02,FINAL_ONLY,0.05,,
+Bag + projection,20260527,1048576,4,50,46,0.08,FINAL_ONLY,0.05,,
+Bag + projection,20260528,1048576,0,50,50,0.0,FINAL_ONLY,0.025,,
+Bag + projection,20260529,1048576,0,50,50,0.0,FINAL_ONLY,0.0125,,
+Bag + projection,AGGREGATE,1048576,6,250,244,0.024,,,0.024,0.008857361277113632
+GRU + projection,AGGREGATE,1048576,2,250,248,0.008,,,0.008,0.0009703097230388862
+Hard-projected (ours),AGGREGATE,1048576,250,250,0,1.0,,,1.0,0.9853528113643196
+Structured SSM + projection,AGGREGATE,1048576,3,250,247,0.012,,,0.012,0.00248155825470304

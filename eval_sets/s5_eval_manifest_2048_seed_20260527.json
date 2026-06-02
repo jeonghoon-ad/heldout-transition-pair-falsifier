@@ -1,0 +1,19 @@
+{
+  "eval_len": 2048,
+  "eval_require_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "eval_set_sha256": "fe185a09413d4dd96ed7e4bb85591e00a14f9d15402cff0acd072ba5f7dd7c28",
+  "n_test": 50,
+  "required_pair_absent_count": 0,
+  "required_pair_present_count": 50,
+  "seed": 20260527,
+  "status": "PASS"
+}

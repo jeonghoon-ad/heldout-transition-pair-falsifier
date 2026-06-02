@@ -1,0 +1,18 @@
+{
+  "forbidden_pair_count_in_train": 0,
+  "n_train": 200,
+  "seed": 20260526,
+  "status": "PASS",
+  "target_group": "S3xS3",
+  "train_forbid_update_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "train_seq_len": 8
+}

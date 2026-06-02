@@ -1,0 +1,54 @@
+{
+  "batch_size": 40,
+  "d_model": 64,
+  "epochs": 5,
+  "eval_lens": [
+    4096,
+    16384,
+    65536,
+    524288,
+    1048576
+  ],
+  "eval_require_update_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "final_only_eval_threshold": 65536,
+  "grad_clip": 10.0,
+  "hidden_dim": 128,
+  "lr": 0.003,
+  "mamba_d_conv": 4,
+  "mamba_d_state": 16,
+  "mamba_expand": 2,
+  "n_layers": 2,
+  "n_test": 50,
+  "n_train": 200,
+  "n_val": 80,
+  "projected_lr": 0.2,
+  "seeds": [
+    20260525,
+    20260526,
+    20260527,
+    20260528,
+    20260529
+  ],
+  "target_group": "S3xS3",
+  "train_forbid_update_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "train_seq_len": 8,
+  "weight_decay": 0.01
+}

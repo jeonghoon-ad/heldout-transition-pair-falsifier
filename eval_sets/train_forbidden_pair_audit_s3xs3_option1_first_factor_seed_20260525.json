@@ -1,0 +1,35 @@
+{
+  "audit_type": "round2_train_forbidden_pair_count",
+  "forbidden_pair_count_in_train": 0,
+  "n_train": 200,
+  "seed": 20260525,
+  "split": "option1_first_factor",
+  "status": "PASS",
+  "target_group": "S3xS3",
+  "token_encoding": {
+    "description": "packed token = operation_id * |G| + query_group_element_id",
+    "group_size": 36,
+    "operation_id": "token // |G|",
+    "query_group_element_id": "token % |G|"
+  },
+  "train_forbid_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "train_labels_shape": [
+    200,
+    8
+  ],
+  "train_seq_len": 8,
+  "train_tokens_shape": [
+    200,
+    8
+  ],
+  "violating_samples": []
+}

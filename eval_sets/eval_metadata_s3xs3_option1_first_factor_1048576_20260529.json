@@ -1,0 +1,38 @@
+{
+  "eval_len": 1048576,
+  "eval_require_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "generation_timestamp": "2026-05-28 23:55:32 UTC",
+  "generator_labeling": [
+    "a_0",
+    "a_1",
+    "a_2",
+    "a_3"
+  ],
+  "group": "s3xs3",
+  "labels_file": "manifests/eval_labels_s3xs3_option1_first_factor_1048576_20260529.npy",
+  "labels_sha256": "cf3d4a59a978129f05d998441917a3355d5b04f7dcaad508e14e2adbcd26c5d5",
+  "n_test": 50,
+  "seed": 20260529,
+  "split": "option1_first_factor",
+  "tokens_file": "manifests/eval_tokens_s3xs3_option1_first_factor_1048576_20260529.npy",
+  "tokens_sha256": "4eef02e8abc4559016d54d21da96e7ded3e16c5a488bb94ccc4857ba48ebc9c6",
+  "train_forbid_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ]
+}

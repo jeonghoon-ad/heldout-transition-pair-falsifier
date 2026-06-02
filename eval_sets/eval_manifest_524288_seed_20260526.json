@@ -1,0 +1,18 @@
+{
+  "eval_len": 524288,
+  "eval_require_update_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "n_test": 50,
+  "required_pair_absent_count": 0,
+  "required_pair_present_count": 50,
+  "seed": 20260526,
+  "status": "PASS"
+}

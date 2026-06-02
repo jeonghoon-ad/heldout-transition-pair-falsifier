@@ -1,0 +1,11 @@
+split,seed,n_train,train_seq_len,train_forbid_update_pairs,forbidden_pair_count_in_train,status,manifest
+option1_first_factor,20260525,200,8,"[[0, 1], [1, 0]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option1_first_factor_seed_20260525.json
+option1_first_factor,20260526,200,8,"[[0, 1], [1, 0]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option1_first_factor_seed_20260526.json
+option1_first_factor,20260527,200,8,"[[0, 1], [1, 0]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option1_first_factor_seed_20260527.json
+option1_first_factor,20260528,200,8,"[[0, 1], [1, 0]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option1_first_factor_seed_20260528.json
+option1_first_factor,20260529,200,8,"[[0, 1], [1, 0]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option1_first_factor_seed_20260529.json
+option2_second_factor_corrected,20260525,200,8,"[[2, 3], [3, 2]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option2_second_factor_corrected_seed_20260525.json
+option2_second_factor_corrected,20260526,200,8,"[[2, 3], [3, 2]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option2_second_factor_corrected_seed_20260526.json
+option2_second_factor_corrected,20260527,200,8,"[[2, 3], [3, 2]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option2_second_factor_corrected_seed_20260527.json
+option2_second_factor_corrected,20260528,200,8,"[[2, 3], [3, 2]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option2_second_factor_corrected_seed_20260528.json
+option2_second_factor_corrected,20260529,200,8,"[[2, 3], [3, 2]]",0,PASS,manifests/train_forbidden_pair_audit_s3xs3_option2_second_factor_corrected_seed_20260529.json

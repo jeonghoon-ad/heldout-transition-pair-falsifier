@@ -1,0 +1,29 @@
+{
+  "eval_len": 65536,
+  "eval_require_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "generation_timestamp": "2026-05-29 00:37:55 UTC",
+  "generator_labeling": [
+    "r",
+    "s"
+  ],
+  "group": "S5",
+  "labels_file": "manifests/eval_labels_s5_projected_65536_20260528.npy",
+  "labels_sha256": "a09a892926d4ab849a5916903fa7220e607be358a89212bd8a90155a3ea7eec9",
+  "n_test": 50,
+  "required_pair_absent_count": 0,
+  "required_pair_present_count": 50,
+  "seed": 20260528,
+  "split": "projected_baselines",
+  "status": "PASS",
+  "tokens_file": "manifests/eval_tokens_s5_projected_65536_20260528.npy",
+  "tokens_sha256": "3243a7ba01b7bc3b04c9a26df7c4be6f4e5dd432070d63e44f27c93ff56f72a9"
+}

@@ -1,0 +1,64 @@
+{
+  "audit_timestamp_kst": "2026-05-29 09:43",
+  "scope": "Experiment 3 Step 5a feasibility audit only; no training or evaluation runs performed.",
+  "current_environment": {
+    "host": "RTX 3090 vast.ai instance",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu130",
+    "cuda_available": true,
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "mamba_ssm": "2.3.2.post1",
+    "triton": "3.6.0",
+    "numpy": "2.3.5"
+  },
+  "baselines": [
+    {
+      "name": "PD-SSM",
+      "paper": "Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models",
+      "paper_url": "https://arxiv.org/abs/2509.22284",
+      "official_reference_code_publicly_available": true,
+      "official_reference_code_link": "https://github.com/IBM/expressive-sparse-state-space-model",
+      "code_runnable_in_current_environment": "UNKNOWN - not executed in this audit because Step 5a forbids experiment runs and git commands are disallowed for this round.",
+      "environment_notes": "Repository is Python and Apache-2.0 licensed per GitHub page. It targets FSA state-tracking and long-sequence tasks, but this audit did not install or run it.",
+      "supports_custom_finite_group_state_tracking": "Likely partially. The public README describes FSA state tracking and algebraic-group automata, including non-solvable examples, but direct support for the exact held-out transition-pair generator protocol is not confirmed without inspecting and adapting its data pipeline.",
+      "adaptable_without_model_rewrite": "Potentially yes for the model, but not just by changing a config file. A custom data adapter and output/readout mapping for the held-out transition-pair split would be required.",
+      "estimated_engineering_time": "1-2 days for a fair adapter and smoke run; 3-5 days for paper-grade matched seeds, manifests, and failure-case logging.",
+      "recommended_status": "defer-to-companion-comparison",
+      "reason": "Official code exists and the method is directly relevant, but immediate run-now status is not justified without building an adapter and validating parity with the existing split/manifests."
+    },
+    {
+      "name": "M2RNN",
+      "paper": "M2RNN: Non-Linear RNNs with Matrix-Valued States for Scalable Language Modeling",
+      "paper_url": "https://arxiv.org/abs/2603.14360",
+      "official_reference_code_publicly_available": false,
+      "official_reference_code_link": null,
+      "code_runnable_in_current_environment": "NO - no official reference implementation was found in the web audit.",
+      "environment_notes": "The arXiv page exposes paper source but no clear code repository in the Code/Data/Media section as of this audit.",
+      "supports_custom_finite_group_state_tracking": "Paper reports state-tracking generalization, but no runnable public implementation or task adapter was found.",
+      "adaptable_without_model_rewrite": "UNKNOWN/NO for this round. Without official code, a faithful implementation would be a new model implementation rather than an adapter-only comparison.",
+      "estimated_engineering_time": "1-2 weeks for a faithful reproduction attempt; longer for paper-grade parity.",
+      "recommended_status": "literature-only-positioning",
+      "reason": "Relevant architecture and claims, but no official code was found; running it now would require implementing the model, which is outside this round."
+    },
+    {
+      "name": "Holonomic Network",
+      "paper": "Robust Reasoning as a Symmetry-Protected Topological Phase",
+      "paper_url": "https://arxiv.org/abs/2601.05240",
+      "official_reference_code_publicly_available": false,
+      "official_reference_code_link": null,
+      "code_runnable_in_current_environment": "NO - no official reference implementation was found in the web audit.",
+      "environment_notes": "The arXiv page confirms the paper and task claims, including a variable-binding task and long-horizon extrapolation, but does not expose runnable code.",
+      "supports_custom_finite_group_state_tracking": "Conceptually adjacent, but not confirmed as a drop-in finite-group state-tracking implementation.",
+      "adaptable_without_model_rewrite": "NO for this round. Without code, any run would require reconstructing the model and task.",
+      "estimated_engineering_time": "1-3 weeks for a faithful reproduction attempt, depending on paper detail and author clarification.",
+      "recommended_status": "literature-only-positioning",
+      "reason": "Important related/concurrent method, but not immediately runnable under the held-out transition-pair falsifier."
+    }
+  ],
+  "step_5b_decision": {
+    "any_run_now": false,
+    "action": "skip Step 5b",
+    "reason": "No audited baseline met run-now criteria. PD-SSM is deferred to a companion comparison; M2RNN and Holonomic Network are literature-only for this round."
+  }
+}

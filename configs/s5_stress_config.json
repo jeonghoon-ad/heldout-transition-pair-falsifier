@@ -1,0 +1,41 @@
+{
+  "batch_size": 40,
+  "device": "cuda",
+  "epochs": 5,
+  "eval_lens_option_a": [
+    512,
+    2048,
+    8192
+  ],
+  "eval_lens_option_b": [
+    512,
+    2048,
+    8192,
+    65536
+  ],
+  "generator_convention": "positive_only",
+  "group": "S5",
+  "held_out_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "lr": 0.003,
+  "n_test": 50,
+  "n_train": 200,
+  "n_val": 80,
+  "seeds": [
+    20260525,
+    20260526,
+    20260527,
+    20260528,
+    20260529
+  ],
+  "train_seq_len": 16,
+  "weight_decay": 0.01
+}

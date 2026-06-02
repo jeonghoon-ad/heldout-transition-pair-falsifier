@@ -1,0 +1,8 @@
+{
+  "eval_len": 65536,
+  "eval_set_sha256": "5de9b4a2323ea4474e967f5d38906fea362480b52c4942fab5920e509a99b665",
+  "n_test": 50,
+  "seed": 20260529,
+  "source": "Phase A short-horizon re-evaluation for Figure 1 v2",
+  "status": "PASS"
+}

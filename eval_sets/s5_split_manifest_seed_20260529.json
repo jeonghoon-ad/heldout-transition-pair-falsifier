@@ -1,0 +1,20 @@
+{
+  "generator_convention": "positive_only",
+  "group": "S5",
+  "pair_counts": {
+    "0-1": 0,
+    "1-0": 0
+  },
+  "seed": 20260529,
+  "status": "PASS",
+  "train_forbid_update_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ]
+}

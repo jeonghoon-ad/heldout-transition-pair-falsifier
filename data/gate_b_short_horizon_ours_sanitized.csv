@@ -1,0 +1,19 @@
+model,eval_len,seed,exact_count,total_count,failure_count,final_accuracy,device,seed_mean_final_accuracy,clopper_pearson_lower_95
+Hard-projected (ours),4096,20260525,50,50,0,1.0,cpu,,
+Hard-projected (ours),16384,20260525,50,50,0,1.0,cpu,,
+Hard-projected (ours),65536,20260525,50,50,0,1.0,cpu,,
+Hard-projected (ours),4096,20260526,50,50,0,1.0,cpu,,
+Hard-projected (ours),16384,20260526,50,50,0,1.0,cpu,,
+Hard-projected (ours),65536,20260526,50,50,0,1.0,cpu,,
+Hard-projected (ours),4096,20260527,50,50,0,1.0,cpu,,
+Hard-projected (ours),16384,20260527,50,50,0,1.0,cpu,,
+Hard-projected (ours),65536,20260527,50,50,0,1.0,cpu,,
+Hard-projected (ours),4096,20260528,50,50,0,1.0,cpu,,
+Hard-projected (ours),16384,20260528,50,50,0,1.0,cpu,,
+Hard-projected (ours),65536,20260528,50,50,0,1.0,cpu,,
+Hard-projected (ours),4096,20260529,50,50,0,1.0,cpu,,
+Hard-projected (ours),16384,20260529,50,50,0,1.0,cpu,,
+Hard-projected (ours),65536,20260529,50,50,0,1.0,cpu,,
+Hard-projected (ours),4096,AGGREGATE,250,250,0,1.0,,1.0,0.9853528113643196
+Hard-projected (ours),16384,AGGREGATE,250,250,0,1.0,,1.0,0.9853528113643196
+Hard-projected (ours),65536,AGGREGATE,250,250,0,1.0,,1.0,0.9853528113643196

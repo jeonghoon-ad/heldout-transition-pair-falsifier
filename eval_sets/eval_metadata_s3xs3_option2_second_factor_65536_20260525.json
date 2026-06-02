@@ -1,0 +1,1104 @@
+{
+  "encoding": {
+    "description": "packed token = operation_id * |G| + query_group_element_id",
+    "n_update_ops": 4,
+    "non_update_ops": {
+      "swap": 4,
+      "toggle": 5
+    },
+    "operation_id": "token // |G|",
+    "query_group_element_id": "token % |G|",
+    "vocab_size": 216
+  },
+  "eval_len": 65536,
+  "eval_require_update_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "generation_timestamp": "2026-05-29 01:58:30 UTC",
+  "generator_labeling": [
+    "a_0",
+    "a_1",
+    "a_2",
+    "a_3"
+  ],
+  "group": "s3xs3",
+  "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260525.npy",
+  "labels_sha256": "7d8aaf325ca56d548fde321558a09f32285318a7070f5fb9e4ce2807e834d6b5",
+  "n_test": 50,
+  "required_pair_absent_count": 0,
+  "required_pair_insertion_positions": [
+    {
+      "insertions": [
+        {
+          "end": 12,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 11
+        },
+        {
+          "end": 30,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 29
+        }
+      ],
+      "sample_index": 0
+    },
+    {
+      "insertions": [
+        {
+          "end": 29,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 28
+        },
+        {
+          "end": 51,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 50
+        }
+      ],
+      "sample_index": 1
+    },
+    {
+      "insertions": [
+        {
+          "end": 46,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 45
+        },
+        {
+          "end": 72,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 71
+        }
+      ],
+      "sample_index": 2
+    },
+    {
+      "insertions": [
+        {
+          "end": 63,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 62
+        },
+        {
+          "end": 93,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 92
+        }
+      ],
+      "sample_index": 3
+    },
+    {
+      "insertions": [
+        {
+          "end": 80,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 79
+        },
+        {
+          "end": 114,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 113
+        }
+      ],
+      "sample_index": 4
+    },
+    {
+      "insertions": [
+        {
+          "end": 97,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 96
+        },
+        {
+          "end": 135,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 134
+        }
+      ],
+      "sample_index": 5
+    },
+    {
+      "insertions": [
+        {
+          "end": 114,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 113
+        },
+        {
+          "end": 156,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 155
+        }
+      ],
+      "sample_index": 6
+    },
+    {
+      "insertions": [
+        {
+          "end": 131,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 130
+        },
+        {
+          "end": 177,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 176
+        }
+      ],
+      "sample_index": 7
+    },
+    {
+      "insertions": [
+        {
+          "end": 148,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 147
+        },
+        {
+          "end": 198,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 197
+        }
+      ],
+      "sample_index": 8
+    },
+    {
+      "insertions": [
+        {
+          "end": 165,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 164
+        },
+        {
+          "end": 219,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 218
+        }
+      ],
+      "sample_index": 9
+    },
+    {
+      "insertions": [
+        {
+          "end": 182,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 181
+        },
+        {
+          "end": 240,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 239
+        }
+      ],
+      "sample_index": 10
+    },
+    {
+      "insertions": [
+        {
+          "end": 199,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 198
+        },
+        {
+          "end": 261,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 260
+        }
+      ],
+      "sample_index": 11
+    },
+    {
+      "insertions": [
+        {
+          "end": 216,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 215
+        },
+        {
+          "end": 282,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 281
+        }
+      ],
+      "sample_index": 12
+    },
+    {
+      "insertions": [
+        {
+          "end": 233,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 232
+        },
+        {
+          "end": 303,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 302
+        }
+      ],
+      "sample_index": 13
+    },
+    {
+      "insertions": [
+        {
+          "end": 250,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 249
+        },
+        {
+          "end": 324,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 323
+        }
+      ],
+      "sample_index": 14
+    },
+    {
+      "insertions": [
+        {
+          "end": 267,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 266
+        },
+        {
+          "end": 345,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 344
+        }
+      ],
+      "sample_index": 15
+    },
+    {
+      "insertions": [
+        {
+          "end": 284,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 283
+        },
+        {
+          "end": 366,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 365
+        }
+      ],
+      "sample_index": 16
+    },
+    {
+      "insertions": [
+        {
+          "end": 301,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 300
+        },
+        {
+          "end": 387,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 386
+        }
+      ],
+      "sample_index": 17
+    },
+    {
+      "insertions": [
+        {
+          "end": 318,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 317
+        },
+        {
+          "end": 408,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 407
+        }
+      ],
+      "sample_index": 18
+    },
+    {
+      "insertions": [
+        {
+          "end": 335,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 334
+        },
+        {
+          "end": 429,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 428
+        }
+      ],
+      "sample_index": 19
+    },
+    {
+      "insertions": [
+        {
+          "end": 352,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 351
+        },
+        {
+          "end": 450,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 449
+        }
+      ],
+      "sample_index": 20
+    },
+    {
+      "insertions": [
+        {
+          "end": 369,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 368
+        },
+        {
+          "end": 471,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 470
+        }
+      ],
+      "sample_index": 21
+    },
+    {
+      "insertions": [
+        {
+          "end": 386,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 385
+        },
+        {
+          "end": 492,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 491
+        }
+      ],
+      "sample_index": 22
+    },
+    {
+      "insertions": [
+        {
+          "end": 403,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 402
+        },
+        {
+          "end": 513,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 512
+        }
+      ],
+      "sample_index": 23
+    },
+    {
+      "insertions": [
+        {
+          "end": 420,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 419
+        },
+        {
+          "end": 534,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 533
+        }
+      ],
+      "sample_index": 24
+    },
+    {
+      "insertions": [
+        {
+          "end": 437,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 436
+        },
+        {
+          "end": 555,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 554
+        }
+      ],
+      "sample_index": 25
+    },
+    {
+      "insertions": [
+        {
+          "end": 454,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 453
+        },
+        {
+          "end": 576,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 575
+        }
+      ],
+      "sample_index": 26
+    },
+    {
+      "insertions": [
+        {
+          "end": 471,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 470
+        },
+        {
+          "end": 597,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 596
+        }
+      ],
+      "sample_index": 27
+    },
+    {
+      "insertions": [
+        {
+          "end": 488,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 487
+        },
+        {
+          "end": 618,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 617
+        }
+      ],
+      "sample_index": 28
+    },
+    {
+      "insertions": [
+        {
+          "end": 505,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 504
+        },
+        {
+          "end": 639,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 638
+        }
+      ],
+      "sample_index": 29
+    },
+    {
+      "insertions": [
+        {
+          "end": 522,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 521
+        },
+        {
+          "end": 660,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 659
+        }
+      ],
+      "sample_index": 30
+    },
+    {
+      "insertions": [
+        {
+          "end": 539,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 538
+        },
+        {
+          "end": 681,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 680
+        }
+      ],
+      "sample_index": 31
+    },
+    {
+      "insertions": [
+        {
+          "end": 556,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 555
+        },
+        {
+          "end": 702,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 701
+        }
+      ],
+      "sample_index": 32
+    },
+    {
+      "insertions": [
+        {
+          "end": 573,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 572
+        },
+        {
+          "end": 723,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 722
+        }
+      ],
+      "sample_index": 33
+    },
+    {
+      "insertions": [
+        {
+          "end": 590,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 589
+        },
+        {
+          "end": 744,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 743
+        }
+      ],
+      "sample_index": 34
+    },
+    {
+      "insertions": [
+        {
+          "end": 607,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 606
+        },
+        {
+          "end": 765,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 764
+        }
+      ],
+      "sample_index": 35
+    },
+    {
+      "insertions": [
+        {
+          "end": 624,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 623
+        },
+        {
+          "end": 786,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 785
+        }
+      ],
+      "sample_index": 36
+    },
+    {
+      "insertions": [
+        {
+          "end": 641,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 640
+        },
+        {
+          "end": 807,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 806
+        }
+      ],
+      "sample_index": 37
+    },
+    {
+      "insertions": [
+        {
+          "end": 658,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 657
+        },
+        {
+          "end": 828,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 827
+        }
+      ],
+      "sample_index": 38
+    },
+    {
+      "insertions": [
+        {
+          "end": 675,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 674
+        },
+        {
+          "end": 849,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 848
+        }
+      ],
+      "sample_index": 39
+    },
+    {
+      "insertions": [
+        {
+          "end": 692,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 691
+        },
+        {
+          "end": 870,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 869
+        }
+      ],
+      "sample_index": 40
+    },
+    {
+      "insertions": [
+        {
+          "end": 709,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 708
+        },
+        {
+          "end": 891,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 890
+        }
+      ],
+      "sample_index": 41
+    },
+    {
+      "insertions": [
+        {
+          "end": 726,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 725
+        },
+        {
+          "end": 912,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 911
+        }
+      ],
+      "sample_index": 42
+    },
+    {
+      "insertions": [
+        {
+          "end": 743,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 742
+        },
+        {
+          "end": 933,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 932
+        }
+      ],
+      "sample_index": 43
+    },
+    {
+      "insertions": [
+        {
+          "end": 760,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 759
+        },
+        {
+          "end": 954,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 953
+        }
+      ],
+      "sample_index": 44
+    },
+    {
+      "insertions": [
+        {
+          "end": 777,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 776
+        },
+        {
+          "end": 975,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 974
+        }
+      ],
+      "sample_index": 45
+    },
+    {
+      "insertions": [
+        {
+          "end": 794,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 793
+        },
+        {
+          "end": 996,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 995
+        }
+      ],
+      "sample_index": 46
+    },
+    {
+      "insertions": [
+        {
+          "end": 811,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 810
+        },
+        {
+          "end": 1017,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 1016
+        }
+      ],
+      "sample_index": 47
+    },
+    {
+      "insertions": [
+        {
+          "end": 828,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 827
+        },
+        {
+          "end": 1038,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 1037
+        }
+      ],
+      "sample_index": 48
+    },
+    {
+      "insertions": [
+        {
+          "end": 845,
+          "pair": [
+            2,
+            3
+          ],
+          "start": 844
+        },
+        {
+          "end": 1059,
+          "pair": [
+            3,
+            2
+          ],
+          "start": 1058
+        }
+      ],
+      "sample_index": 49
+    }
+  ],
+  "required_pair_present_count": 50,
+  "seed": 20260525,
+  "split": "option2_second_factor",
+  "status": "PASS",
+  "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260525.npy",
+  "tokens_sha256": "fef57edb33abe869f384a8dec101525b9583598a03c3364611d6f56044f89e99",
+  "train_forbid_update_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ]
+  ]
+}

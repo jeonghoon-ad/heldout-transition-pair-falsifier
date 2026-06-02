@@ -1,0 +1,27 @@
+{
+  "eval_lens": [
+    4096,
+    65536,
+    524288,
+    1048576
+  ],
+  "models": [
+    "hard_projected",
+    "gru_projected",
+    "ssm_projected",
+    "bag_projected"
+  ],
+  "preflight": {
+    "corrected_option2_tokens_sha256": "fc9dff59772eb2d3b9f7656fee3c93e7c9ba3a0413ed44afe07e939722f4d68c",
+    "eval_len": 4096,
+    "first_factor_pair_not_injected": true,
+    "injected_positions_match_second_factor_pairs": true,
+    "option1_tokens_sha256": "68aab26e786eedf69f1154490cf64f3b90684f90e51d3698de8d9c36c8ca7364",
+    "preflight_labels_file": "logs/option2_preflight_20260529/preflight_labels_4096_20260525.npy",
+    "preflight_tokens_file": "logs/option2_preflight_20260529/preflight_tokens_4096_20260525.npy",
+    "second_factor_required_pair_present_all_sequences": true,
+    "seed": 20260525,
+    "sha_differs_from_option1": true
+  },
+  "started": "2026-05-29 01:26:42 UTC"
+}

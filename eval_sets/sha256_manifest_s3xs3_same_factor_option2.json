@@ -1,0 +1,466 @@
+{
+  "entries": [
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 1048576,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_1048576_20260525.npy",
+      "labels_sha256": "2f0bffb9d0e368bcc1517b043f87010e9451ae8120c0a64a12a82b61515d1158",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_1048576_20260525.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260525,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_1048576_20260525.npy",
+      "tokens_sha256": "7872d2f5abd4c98646297e08fbbe99250e2665000a6a6238cc7817c07b9bef16"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 1048576,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_1048576_20260526.npy",
+      "labels_sha256": "3c0f62bc90930cf9f2ea84cb295420263ef55cbbf019d6875cee0d8f54fd2cbc",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_1048576_20260526.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260526,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_1048576_20260526.npy",
+      "tokens_sha256": "a0f3b3686e90c66c41b9aa6889c4a92b4fd8874a307b53d7469c401c7312a96a"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 1048576,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_1048576_20260527.npy",
+      "labels_sha256": "e35201531d09f11922e49df44401055a8e2b33c7db16625b78f8e964f03aebcf",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_1048576_20260527.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260527,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_1048576_20260527.npy",
+      "tokens_sha256": "3b2cb1e6a308b9cbd09e31b30705bee1b498bf33426ec9d72fa621377d7cad13"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 1048576,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_1048576_20260528.npy",
+      "labels_sha256": "2995f26ce86f180b095e5752392df8782b1cd2892f440e85fc0c1e2ded7d6b2d",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_1048576_20260528.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260528,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_1048576_20260528.npy",
+      "tokens_sha256": "52dca80894d249d31f8b494b3e92cc4f29bf9ff110414c2f68ef03f96ef47231"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 1048576,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_1048576_20260529.npy",
+      "labels_sha256": "83deb966a37d8f1f1921f364395f1b5c3ec59e9ebd7a1c5b1b5d8a108874c15d",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_1048576_20260529.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260529,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_1048576_20260529.npy",
+      "tokens_sha256": "8dbfc1dd8f6003fd4ed34c3dcfe7ef6dceb6ec8d8a173ff6c8e84c93be6a230b"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 4096,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_4096_20260525.npy",
+      "labels_sha256": "7c7c48cc2ded760c894ff4781a760bd560def59380532ded345cbb3e55370ff8",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_4096_20260525.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260525,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_4096_20260525.npy",
+      "tokens_sha256": "fc9dff59772eb2d3b9f7656fee3c93e7c9ba3a0413ed44afe07e939722f4d68c"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 4096,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_4096_20260526.npy",
+      "labels_sha256": "844fad0ce63675ea29e4decb088f2d6d8a2f049da2c9c516580f3be944c04f46",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_4096_20260526.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260526,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_4096_20260526.npy",
+      "tokens_sha256": "e043018ec0f0d6e5342d0cb27628dfc0582dfb2bbe732a04e03823c8a9e6b627"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 4096,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_4096_20260527.npy",
+      "labels_sha256": "fe0658cd1d8ddfc1b81a310072b551a221d75ecf4e42deecf3eba8f2475643a7",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_4096_20260527.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260527,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_4096_20260527.npy",
+      "tokens_sha256": "f8bed456516bc2d9fac1bbe84415fd6a621de027b7755963df396e2b76c2604a"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 4096,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_4096_20260528.npy",
+      "labels_sha256": "7b469ddca0245ddea6bf1585903fa6fa738db3c542f7b8bd4aded2ac9159c71f",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_4096_20260528.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260528,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_4096_20260528.npy",
+      "tokens_sha256": "a10f683c7458762ed009a693191606391f7192e5c6f32900b97438af4225d1af"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 4096,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_4096_20260529.npy",
+      "labels_sha256": "f11edfe4778972b421e2fbb88c10e1e38748a5793d541a381da8ff4f32ef3866",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_4096_20260529.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260529,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_4096_20260529.npy",
+      "tokens_sha256": "9b77925687c5eda5ab32128eb6fb5eb1c857f2d3add9d8d8b99bc9bbe52c0123"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 524288,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_524288_20260525.npy",
+      "labels_sha256": "73cb803c7f7ad0cbf783a0c7df36be8f373a5ed6e010438c2c9b0742a5ec3ee4",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_524288_20260525.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260525,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_524288_20260525.npy",
+      "tokens_sha256": "5a63d2fabea46337aeddc0bfba8aa5c2a8c0d1eb9a1fff17a5b59ac7ac6256ba"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 524288,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_524288_20260526.npy",
+      "labels_sha256": "3b3d8bd8052fc31fbbd50d07c7dec6ce1a50a109dce6256a1bf5a93fd3a36071",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_524288_20260526.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260526,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_524288_20260526.npy",
+      "tokens_sha256": "4e85986c232f6747bc58832c9b82d610a8f44d04d10a74dd095b81020f5663c2"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 524288,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_524288_20260527.npy",
+      "labels_sha256": "2db6f45bbfb75864bba1ced24b0f9318a34f93319addace175a19b283cadf1bd",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_524288_20260527.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260527,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_524288_20260527.npy",
+      "tokens_sha256": "c1760b726939501ec5be01c80efb7347698cc0ff05cb0d94209d305150855b0f"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 524288,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_524288_20260528.npy",
+      "labels_sha256": "e5cff18be4b5bfb2ca2afdb8c6c100c56b8c81c5046ff08372c312781160e336",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_524288_20260528.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260528,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_524288_20260528.npy",
+      "tokens_sha256": "8f40e9c05f06113f57448db73e682d3a006b5f126ca3ea191ec6de411efc8cc2"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 524288,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_524288_20260529.npy",
+      "labels_sha256": "39dddff98fc6768e2be164324f108365669adce824ccaf6d84e4667e6564c81b",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_524288_20260529.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260529,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_524288_20260529.npy",
+      "tokens_sha256": "ba3a0e3219cce043d878766122ffc2416e50801756396c336c6e6c116c709a31"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 65536,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260525.npy",
+      "labels_sha256": "7d8aaf325ca56d548fde321558a09f32285318a7070f5fb9e4ce2807e834d6b5",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_65536_20260525.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260525,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260525.npy",
+      "tokens_sha256": "fef57edb33abe869f384a8dec101525b9583598a03c3364611d6f56044f89e99"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 65536,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260526.npy",
+      "labels_sha256": "986ae8c4c958fae57bac77b3ef7ce4ece738bb6f150e9e1a41e343438aa17430",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_65536_20260526.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260526,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260526.npy",
+      "tokens_sha256": "57b17edae771359736d3223d0903edf82ec814b1e17dd80586c2875c7793a907"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 65536,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260527.npy",
+      "labels_sha256": "7de16bfbcea58cdb8310d5509614b16c651d0a689585ceb75d73a7b0e59351d7",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_65536_20260527.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260527,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260527.npy",
+      "tokens_sha256": "656f06eaedb7c37158d5d21e75c198236fc89deeeb346bbd81116b3db25d1c97"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 65536,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260528.npy",
+      "labels_sha256": "37d0de4279dde98aea2154183e89466829d42dd3826319d6e4d441828fe14cdd",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_65536_20260528.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260528,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260528.npy",
+      "tokens_sha256": "4bf29edd7ea64bf4bfd33bdbd71beef5e19bc914251c2e8b71609fbf30e51bb7"
+    },
+    {
+      "encoding": {
+        "description": "packed token = operation_id * |G| + query_group_element_id",
+        "n_update_ops": 4,
+        "non_update_ops": {
+          "swap": 4,
+          "toggle": 5
+        },
+        "operation_id": "token // |G|",
+        "query_group_element_id": "token % |G|",
+        "vocab_size": 216
+      },
+      "eval_len": 65536,
+      "labels_file": "manifests/eval_labels_s3xs3_option2_second_factor_65536_20260529.npy",
+      "labels_sha256": "b83d53b69a440ba0613ce22d7f0ab938fc4be30814fc160baf50434fa0a1d7c9",
+      "metadata_file": "manifests/eval_metadata_s3xs3_option2_second_factor_65536_20260529.json",
+      "required_pair_absent_count": 0,
+      "required_pair_present_count": 50,
+      "seed": 20260529,
+      "split": "option2_second_factor",
+      "tokens_file": "manifests/eval_tokens_s3xs3_option2_second_factor_65536_20260529.npy",
+      "tokens_sha256": "2b2332d19ca3fc3d6ca3342f1940ee3888647400a3dd509188efc6d1d7012956"
+    }
+  ],
+  "entry_count": 20,
+  "generated_from": "per-cell eval_metadata_s3xs3_option2_second_factor_*.json"
+}
