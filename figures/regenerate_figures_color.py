@@ -85,6 +85,7 @@ def fig1():
     axa.axhline(CH36, color=CHANCE, ls=":", lw=1.0, label=f"chance = 1/36 ≈ {CH36:.4f}")
     axa.text(0.06, 0.80, "250/250 exact", transform=axa.transAxes, fontsize=9, color=OURS, fontweight="bold")
     axa.set(xlabel="Evaluation length (tokens)", ylabel="Final-token accuracy", title="(a) Short-horizon regime", ylim=(-0.05, 1.08), xlim=(2500, 100000))
+    axa.set_xticks([4096, 16384, 65536]); axa.set_xticklabels(["4,096", "16,384", "65,536"]); axa.minorticks_off()
     axa.grid(True, **GRID); axa.legend(fontsize=8.5, loc="center right")
     # (b) million-token regime
     L = [524288, 1048576]
@@ -95,6 +96,7 @@ def fig1():
     axb.axhline(CH36, color=CHANCE, ls=":", lw=1.0, label=f"chance = 1/36 ≈ {CH36:.4f}")
     axb.text(0.06, 0.80, "250/250 exact", transform=axb.transAxes, fontsize=9, color=OURS, fontweight="bold")
     axb.set(xlabel="Evaluation length (tokens)", ylabel="Final-token accuracy", title="(b) Million-token regime", ylim=(-0.05, 1.08), xlim=(400000, 1500000))
+    axb.set_xticks([524288, 1048576]); axb.set_xticklabels(["524,288", "1,048,576"]); axb.minorticks_off()
     axb.grid(True, **GRID); axb.legend(fontsize=8, loc="center right")
     plt.tight_layout(); save(fig, "fig1_gate_b_long_horizon")
 

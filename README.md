@@ -31,7 +31,7 @@ LICENSE
 ```
 
 **Large evaluation arrays (524,288 and 1,048,576-token horizons)** exceed
-GitHub's per-file limit and are archived separately on Zenodo (DOI: _TODO_).
+GitHub's per-file limit and are archived separately on Zenodo (DOI: 10.5281/zenodo.20506128).
 Their SHA-256 hashes are included in `eval_sets/` so the archived arrays can be
 integrity-checked against this repository.
 
