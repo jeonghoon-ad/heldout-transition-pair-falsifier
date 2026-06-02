@@ -10,7 +10,7 @@ specificity (Gate E) checks, and reported figures independently inspectable**.
 > **Scope of this release.** This package contains the *benchmark, audit, and
 > evaluation-artifact* layer only. The projected finite-group **carrier model
 > implementation is intentionally not included** — some methods are patent
-> pending (Korean Patent Application 10-2026-0095650). The released code is
+> pending. The released code is
 > sufficient to regenerate the benchmark, verify the held-out split is clean,
 > reproduce the Gate E specificity rates, and inspect every reported number.
 
