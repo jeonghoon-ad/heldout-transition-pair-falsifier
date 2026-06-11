@@ -1,0 +1,134 @@
+{
+  "gate_e_clean_pass": true,
+  "meta": {
+    "attempts": 69927,
+    "complete": true,
+    "counts": {
+      "test:contextual_commutator": 1000,
+      "test:contextual_inverse_shuffle": 1000,
+      "test:held_out_generator_pair": 1000,
+      "test:reversed_word_difference": 1000,
+      "test:same_multiset_different_product": 1000,
+      "train:contextual_commutator": 1000,
+      "train:contextual_inverse_shuffle": 1000,
+      "train:held_out_generator_pair": 1000,
+      "train:reversed_word_difference": 1000,
+      "train:same_multiset_different_product": 1000
+    },
+    "generators": [
+      6,
+      18,
+      1,
+      3
+    ],
+    "group": "s3xs3_full",
+    "group_description": "S3 x S3 full product generators (r,e), (s,e), (e,r), (e,s)"
+  },
+  "metrics": [
+    {
+      "check": "contextual_commutator",
+      "n": 1000,
+      "rate": 1.0,
+      "role": "train"
+    },
+    {
+      "check": "contextual_inverse_shuffle",
+      "n": 1000,
+      "rate": 0.83,
+      "role": "train"
+    },
+    {
+      "check": "held_out_generator_pair",
+      "n": 1000,
+      "rate": 0.342,
+      "role": "train"
+    },
+    {
+      "check": "reversed_word_difference",
+      "n": 1000,
+      "rate": 0.521,
+      "role": "train"
+    },
+    {
+      "check": "same_multiset_different_product",
+      "n": 1000,
+      "rate": 1.0,
+      "role": "train"
+    },
+    {
+      "check": "contextual_commutator",
+      "n": 1000,
+      "rate": 1.0,
+      "role": "test"
+    },
+    {
+      "check": "contextual_inverse_shuffle",
+      "n": 1000,
+      "rate": 0.804,
+      "role": "test"
+    },
+    {
+      "check": "held_out_generator_pair",
+      "n": 1000,
+      "rate": 0.326,
+      "role": "test"
+    },
+    {
+      "check": "reversed_word_difference",
+      "n": 1000,
+      "rate": 0.537,
+      "role": "test"
+    },
+    {
+      "check": "same_multiset_different_product",
+      "n": 1000,
+      "rate": 1.0,
+      "role": "test"
+    }
+  ],
+  "overlap": [
+    {
+      "check": "contextual_commutator",
+      "status": "PASS",
+      "structural_overlap_same_multiset_same_length_bucket": 0.0,
+      "test_rows": 2000,
+      "train_rows": 2000,
+      "verbatim_reduced_word_overlap": 0.0
+    },
+    {
+      "check": "contextual_inverse_shuffle",
+      "status": "PASS",
+      "structural_overlap_same_multiset_same_length_bucket": 0.0,
+      "test_rows": 2000,
+      "train_rows": 2000,
+      "verbatim_reduced_word_overlap": 0.0
+    },
+    {
+      "check": "held_out_generator_pair",
+      "status": "PASS",
+      "structural_overlap_same_multiset_same_length_bucket": 0.0,
+      "test_rows": 2000,
+      "train_rows": 2000,
+      "verbatim_reduced_word_overlap": 0.0
+    },
+    {
+      "check": "reversed_word_difference",
+      "status": "PASS",
+      "structural_overlap_same_multiset_same_length_bucket": 0.0,
+      "test_rows": 2000,
+      "train_rows": 2000,
+      "verbatim_reduced_word_overlap": 0.0
+    },
+    {
+      "check": "same_multiset_different_product",
+      "status": "PASS",
+      "structural_overlap_same_multiset_same_length_bucket": 0.0,
+      "test_rows": 2000,
+      "train_rows": 2000,
+      "verbatim_reduced_word_overlap": 0.0
+    }
+  ],
+  "read": "Candidate overlap-gated Gate E package. Deterministic prior S3 probes remain structural-only.",
+  "snapshot_id": "gate_e_clean_split_20260525__s3xs3_full__n1000_per_role",
+  "updated": "2026-05-25 10:13 KST"
+}

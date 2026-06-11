@@ -22,7 +22,8 @@ code/        carrier-free Python: benchmark generation, held-out split,
   data_gen_s3xs3.py    generate_dataset / generate_sequence / overlap_audit / self_test
   eval_gate_e.py, eval_gate_e_live.py   Gate E structural specificity rates
   determinism.py        seeding helper
-data/        result CSVs (sanitized) for every reported table/figure
+data/        result CSVs/JSONs for reported tables and figures
+  gate_e/     frozen Gate E table, bootstrap CI, and five per-seed rollups
 eval_sets/   per-seed evaluation token/label arrays (short+medium horizons),
              split manifests, eval manifests, and SHA-256 hash manifests
 configs/     run configurations for the projection-matched baselines and gates
@@ -44,8 +45,8 @@ pip install -r requirements.txt          # numpy, scipy, matplotlib, pandas (+ t
 #    required pairs present in eval, zero train/eval overlap):
 python code/data_gen_s3xs3.py --self-test        # or: python -c "import code.data_gen_s3xs3 as d; d.self_test()"
 
-# 2. Reproduce the Gate E structural specificity rates:
-python code/eval_gate_e_live.py --seeds 20260525 20260526 20260527 20260528 20260529
+# 2. Reproduce the Gate E structural specificity rates reported in the paper:
+python code/eval_gate_e_live.py --seeds 20260900 20260901 20260902 20260903 20260904
 
 # 3. Inspect / regenerate figures (CSVs in data/):
 python figures/regenerate_figures_color.py        # set RES to ./data if needed
@@ -58,6 +59,11 @@ python figures/regenerate_figures_color.py        # set RES to ./data if needed
 - `code/data_gen_s3xs3.py` documents and reproduces the generation procedure
   (group definition, forbidden/required transition-pair split, overlap audit).
 - Five fixed seeds are used throughout: 20260525–20260529.
+- Gate E uses its own frozen five-seed data-side check package:
+  20260900–20260904, `n_per_role=1000` for train and test roles, group
+  `s3xs3_full`, generators `[6, 18, 1, 3]`. Canonical Gate E artifacts live
+  under `data/gate_e/`; `code/eval_gate_e_live.py` regenerates the same
+  per-seed test rates and aggregate table.
 - Chance levels: 1/36 ≈ 0.0278 (S₃×S₃), 1/120 ≈ 0.0083 (S₅), 1/6 (Gate A).
 
 ## License & citation

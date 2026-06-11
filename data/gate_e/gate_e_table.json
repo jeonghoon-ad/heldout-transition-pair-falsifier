@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "check": "contextual_commutator",
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "ci_width": 0.0,
+      "mean_rate": 1.0,
+      "metric_type": "group-product specificity rate",
+      "n_seeds": 5,
+      "width_pass": true,
+      "width_target": 0.05
+    },
+    {
+      "check": "contextual_inverse_shuffle",
+      "ci": [
+        0.7826,
+        0.8046000000000001
+      ],
+      "ci_width": 0.02200000000000013,
+      "mean_rate": 0.7936000000000001,
+      "metric_type": "group-product specificity rate",
+      "n_seeds": 5,
+      "width_pass": true,
+      "width_target": 0.08
+    },
+    {
+      "check": "held_out_generator_pair",
+      "ci": [
+        0.32480000000000003,
+        0.35559999999999997
+      ],
+      "ci_width": 0.03079999999999994,
+      "mean_rate": 0.3402,
+      "metric_type": "group-product specificity rate",
+      "n_seeds": 5,
+      "width_pass": true,
+      "width_target": 0.08
+    },
+    {
+      "check": "reversed_word_difference",
+      "ci": [
+        0.5454,
+        0.5656
+      ],
+      "ci_width": 0.020199999999999996,
+      "mean_rate": 0.5554,
+      "metric_type": "group-product specificity rate",
+      "n_seeds": 5,
+      "width_pass": true,
+      "width_target": 0.08
+    },
+    {
+      "check": "same_multiset_different_product",
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "ci_width": 0.0,
+      "mean_rate": 1.0,
+      "metric_type": "structural rate",
+      "n_seeds": 5,
+      "width_pass": true,
+      "width_target": 0.05
+    }
+  ],
+  "source": "frozen Gate E clean-split bootstrap CI artifact",
+  "table": "gate_e"
+}

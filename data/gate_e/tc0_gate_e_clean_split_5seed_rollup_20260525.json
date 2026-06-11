@@ -1,0 +1,148 @@
+{
+  "final_grade_candidate": true,
+  "metric_summary": [
+    {
+      "check": "contextual_commutator",
+      "max_rate": 1.0,
+      "mean_rate": 1.0,
+      "min_rate": 1.0,
+      "n_seeds": 5,
+      "role": "test"
+    },
+    {
+      "check": "contextual_inverse_shuffle",
+      "max_rate": 0.809,
+      "mean_rate": 0.7936000000000001,
+      "min_rate": 0.778,
+      "n_seeds": 5,
+      "role": "test"
+    },
+    {
+      "check": "held_out_generator_pair",
+      "max_rate": 0.364,
+      "mean_rate": 0.3402,
+      "min_rate": 0.315,
+      "n_seeds": 5,
+      "role": "test"
+    },
+    {
+      "check": "reversed_word_difference",
+      "max_rate": 0.574,
+      "mean_rate": 0.5554,
+      "min_rate": 0.537,
+      "n_seeds": 5,
+      "role": "test"
+    },
+    {
+      "check": "same_multiset_different_product",
+      "max_rate": 1.0,
+      "mean_rate": 1.0,
+      "min_rate": 1.0,
+      "n_seeds": 5,
+      "role": "test"
+    }
+  ],
+  "overlap_summary": [
+    {
+      "all_pass": true,
+      "check": "contextual_commutator",
+      "n_seeds": 5,
+      "statuses": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "all_pass": true,
+      "check": "contextual_inverse_shuffle",
+      "n_seeds": 5,
+      "statuses": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "all_pass": true,
+      "check": "held_out_generator_pair",
+      "n_seeds": 5,
+      "statuses": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "all_pass": true,
+      "check": "reversed_word_difference",
+      "n_seeds": 5,
+      "statuses": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ]
+    },
+    {
+      "all_pass": true,
+      "check": "same_multiset_different_product",
+      "n_seeds": 5,
+      "statuses": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ]
+    }
+  ],
+  "seed_reads": [
+    {
+      "complete": true,
+      "gate_e_clean_pass": true,
+      "path": "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260900/tc0_gate_e_clean_split_rollup_20260525.json",
+      "seed": 20260900
+    },
+    {
+      "complete": true,
+      "gate_e_clean_pass": true,
+      "path": "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260901/tc0_gate_e_clean_split_rollup_20260525.json",
+      "seed": 20260901
+    },
+    {
+      "complete": true,
+      "gate_e_clean_pass": true,
+      "path": "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260902/tc0_gate_e_clean_split_rollup_20260525.json",
+      "seed": 20260902
+    },
+    {
+      "complete": true,
+      "gate_e_clean_pass": true,
+      "path": "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260903/tc0_gate_e_clean_split_rollup_20260525.json",
+      "seed": 20260903
+    },
+    {
+      "complete": true,
+      "gate_e_clean_pass": true,
+      "path": "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260904/tc0_gate_e_clean_split_rollup_20260525.json",
+      "seed": 20260904
+    }
+  ],
+  "snapshot_id": "gate_e_clean_split_5seed_20260525__s3xs3_full",
+  "source_rollups": [
+    "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260900/tc0_gate_e_clean_split_rollup_20260525.json",
+    "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260901/tc0_gate_e_clean_split_rollup_20260525.json",
+    "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260902/tc0_gate_e_clean_split_rollup_20260525.json",
+    "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260903/tc0_gate_e_clean_split_rollup_20260525.json",
+    "research_notes/tc0_track_20260318/artifacts/gate_e_clean_split_5seed_20260525/seed_20260904/tc0_gate_e_clean_split_rollup_20260525.json"
+  ],
+  "updated": "2026-05-25 10:14 KST"
+}
