@@ -74,9 +74,9 @@ GRID = dict(alpha=0.25, color="#cccccc")
 
 # ---- Figure 1: Gate B (2 panels: (a) short-horizon, (b) million-token) ----
 def fig1():
-    ours_s = load_acc("gate_b_short_horizon_ours_sanitized").xs("Hard-projected (ours)", level=1)
-    ours_l = load_acc("gate_b_expanded_results_sanitized").xs("Hard-projected (ours)", level=1)
-    proj = {lab: load_acc(f"{s}_projected_results_sanitized").groupby("eval_len").mean() for s, lab in
+    ours_s = load_acc("gate_b_short_horizon_ours").xs("Hard-projected (ours)", level=1)
+    ours_l = load_acc("gate_b_expanded_results").xs("Hard-projected (ours)", level=1)
+    proj = {lab: load_acc(f"{s}_projected_results").groupby("eval_len").mean() for s, lab in
             [("gru", "GRU + prototype"), ("ssm", "SSM + prototype"), ("bag", "bag + prototype")]}
     fig, (axa, axb) = plt.subplots(1, 2, figsize=(10, 4.4))
     # (a) short-horizon regime
@@ -146,7 +146,7 @@ def fig3():
 def fig4():
     import numpy as np
     L = [524288, 1048576]
-    data = {s: load_acc(f"{s}_projected_results_sanitized").groupby("eval_len").mean().reindex(L).values for s in ["gru", "ssm", "bag"]}
+    data = {s: load_acc(f"{s}_projected_results").groupby("eval_len").mean().reindex(L).values for s in ["gru", "ssm", "bag"]}
     cnt = {"gru": ["7/250", "2/250"], "ssm": ["9/250", "3/250"], "bag": ["15/250", "6/250"]}
     x = np.arange(2); w = 0.26
     fig, ax = plt.subplots(figsize=(7.6, 4.6))

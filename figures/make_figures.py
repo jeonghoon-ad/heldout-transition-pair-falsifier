@@ -316,7 +316,7 @@ def color_evidence() -> None:
             "fig3_gate_a_baseline.pdf",
         ],
         "script": "make_figures.py",
-        "data_source": "PREPRINT_1_v0_5_2026_05_27_EN.md sections 6.1, 6.2, 6.3, 6.4 (numbers identical to AD-2026-020 spec §G).",
+        "data_source": "paper sections 6.1, 6.2, 6.3, 6.4 (numbers identical to the frozen public artifact tables).",
     }
     with open(FIGURES_DIR / "color_evidence.json", "w") as f:
         json.dump(evidence, f, indent=2)

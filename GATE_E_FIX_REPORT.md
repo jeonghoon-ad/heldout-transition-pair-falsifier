@@ -26,12 +26,12 @@ Gate E checks used by the paper:
 
 ## Original script hunt
 
-Found:
+Found (in the authors' internal archive; not part of this release):
 
-- `/Users/jeonghoon/Documents/AttractorDynamics/projects/NMH-RNN/experiments/tc0_gate_e_clean_split_preflight_20260525.py`
-- `/Users/jeonghoon/Documents/AttractorDynamics/projects/NMH-RNN/scripts/tc0_gate_e_clean_split_rollup_20260525.py`
-- `/Users/jeonghoon/Documents/AttractorDynamics/projects/NMH-RNN/scripts/tc0_gate_e_clean_split_5seed_rollup_20260525.py`
-- `/Users/jeonghoon/Documents/AttractorDynamics/projects/NMH-RNN/scripts/tc0_gate_e_clean_split_5seed_bootstrap_ci_20260525.py`
+- `tc0_gate_e_clean_split_preflight_20260525.py`
+- `tc0_gate_e_clean_split_rollup_20260525.py`
+- `tc0_gate_e_clean_split_5seed_rollup_20260525.py`
+- `tc0_gate_e_clean_split_5seed_bootstrap_ci_20260525.py`
 
 Evidence checked:
 
