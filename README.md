@@ -24,6 +24,8 @@ code/        carrier-free Python: benchmark generation, held-out split,
   determinism.py        seeding helper
 data/        result CSVs/JSONs for reported tables and figures
   gate_e/     frozen Gate E table, bootstrap CI, and five per-seed rollups
+  matchedlen/ per-seed matched-length decomposition results (paper v2,
+              Section 7 decomposition table / Figure 6: IID vs held-out at L=8 and L=64)
 eval_sets/   per-seed evaluation token/label arrays (short+medium horizons),
              split manifests, eval manifests, and SHA-256 hash manifests
 configs/     run configurations for the projection-matched baselines and gates
@@ -50,6 +52,11 @@ python code/eval_gate_e_live.py --seeds 20260900 20260901 20260902 20260903 2026
 
 # 3. Inspect / regenerate figures (CSVs in data/):
 python figures/regenerate_figures_color.py        # set RES to ./data if needed
+
+# 4. Reproduce Figure 6 (matched-length decomposition, paper v2); the script
+#    recomputes all aggregates from data/matchedlen/ and asserts them against
+#    the paper's matched-length decomposition table before rendering:
+python figures/make_fig6_matchedlen.py
 ```
 
 ## Reproducibility notes
